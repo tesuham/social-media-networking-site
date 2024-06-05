@@ -1,11 +1,11 @@
 export const sidebarLinks = [
   {
-    imgURL: "/assets/icons/home.svg",
+    imgURL: "/assets/images/home.svg",
     route: "/",
     label: "Home",
   },
   {
-    imgURL: "/assets/icons/wallpaper.svg",
+    imgURL: "/assets/images/explore.svg",
     route: "/explore",
     label: "Explore",
   },
@@ -15,7 +15,7 @@ export const sidebarLinks = [
     label: "People",
   },
   {
-    imgURL: "/assets/icons/bookmark.svg",
+    imgURL: "/assets/images/saved.svg",
     route: "/saved",
     label: "Saved",
   },

@@ -119,7 +119,7 @@ const Profile = () => {
               pathname === `/profile/${id}/liked-posts` && "!bg-dark-3"
             }`}>
             <img
-              src={"/assets/icons/like.svg"}
+              src={"/assets/images/heart.svg"}
               alt="like"
               width={20}
               height={20}
