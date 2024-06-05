@@ -71,7 +71,7 @@ const LeftSidebar = () => {
                   <img
                     src={link.imgURL}
                     alt={link.label}
-                    className={`group-hover:invert-white ${
+                    className={`h-8 w-8 group-hover:invert-white ${
                       isActive && "invert-white"
                     }`}
                   />
@@ -87,7 +87,7 @@ const LeftSidebar = () => {
         variant="ghost"
         className="shad-button_ghost"
         onClick={(e) => handleSignOut(e)}>
-        <img src="/assets/icons/logout.svg" alt="logout" />
+        <img src="/assets/images/logout.svg" alt="logout" className="h-8 w-8"/>
         <p className="small-medium lg:base-medium">Logout</p>
       </Button>
     </nav>
